@@ -1,0 +1,1 @@
+rfc -> make the app function and import react automatically
