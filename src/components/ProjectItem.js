@@ -48,11 +48,12 @@ export default function ProjectItem({
         <img src={img} alt="project img" />
       </Link>
       <div className="projectItem__info">
-        <Link to={link}>
-          <a className="projectItem__title" href={link}>
-            {title}
-          </a>
-        </Link>
+        <a href={link} className="projectItem__title">
+          {title}
+        </a>
+        {/* <Link to={link}>
+          <h3 className="projectItem__title">{title}</h3>
+        </Link> */}
         <p className="projectItem__desc">{desc}</p>
       </div>
     </ProjectItemStyles>
