@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/about2.png';
 import AboutInfoItem from '../components/AboutInfoItem';
+import ResumeDownload from '../assets/data/Chen_Emily_Resume_10-10.pdf';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -108,7 +109,7 @@ export default function About() {
                 technology.
               </PText>
             </div>
-            <Button btnText="Download Resume" btnLink="#" />
+            <Button btnText="Download Resume" btnLink={ResumeDownload} />
           </div>
           <div className="right">
             <img src={AboutImg} alt="Emily Chen img" />
