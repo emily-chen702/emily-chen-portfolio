@@ -145,6 +145,17 @@ export default function NavMenu() {
             Projects
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/experiences"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Experiences
+          </NavLink>
+        </li>
       </ul>
     </NavMenuStyles>
   );

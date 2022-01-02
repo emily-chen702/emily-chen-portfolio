@@ -41,20 +41,23 @@ export default function ProjectItem({
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   link = '#',
+  category = '',
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
-      <div className="projectItem__info">
-        <a href={link} className="projectItem__title">
-          {title}
-        </a>
-        {/* <Link to={link}>
-          <h3 className="projectItem__title">{title}</h3>
-        </Link> */}
-        <p className="projectItem__desc">{desc}</p>
+      <div className={category}>
+        <Link to="/projects" className="projectItem__img">
+          <img src={img} alt="project img" />
+        </Link>
+        <div className="projectItem__info">
+          <a href={link} className="projectItem__title">
+            {title}
+          </a>
+          {/* <Link to={link}>
+            <h3 className="projectItem__title">{title}</h3>
+          </Link> */}
+          <p className="projectItem__desc">{desc}</p>
+        </div>
       </div>
     </ProjectItemStyles>
   );
