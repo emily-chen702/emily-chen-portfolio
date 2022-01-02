@@ -2,13 +2,23 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
 
+/*
+FiMapPin
+IoMdBriefcase
+*/
+
 const WorkExperienceItemStyle = styled.div`
   .para {
     line-height: 2rem;
     padding: 1rem;
+    margin: 1px 1px;
+    max-width: 600px;
   }
   .items {
     flex-wrap: wrap;
+  }
+  .container {
+    border-left: 3px solid white;
   }
 `;
 
@@ -19,16 +29,20 @@ export default function WorkExperienceItem({
 }) {
   return (
     <WorkExperienceItemStyle>
-      <h1> {position} </h1>
-      <h2> {company} </h2>
-      <div className="responsibilities">
+      <br />
+      <h1>
+        {position} | <i> {company} </i>
+      </h1>
+      <ul className="responsibilities container">
         {responsibilities.map((item, index) => (
-          <div className="item" key={index}>
-            <PText>{item}</PText>
-            <br />
-          </div>
+          <li>
+            <div className="item" key={index}>
+              <PText>{item}</PText>
+              <br />
+            </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </WorkExperienceItemStyle>
   );
 }

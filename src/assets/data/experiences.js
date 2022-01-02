@@ -5,6 +5,7 @@ const experiences = [
     id: uuidv4(),
     position: 'Software Developer',
     company: 'GenOne Technologies',
+    location: 'Cambridge, MA',
     responsibilities: [
       'Develop an Angular based NativeScript app that uses an iPhone sensor to sense the position of two 3D printed toys using machine learning methods (SVM and SVR).',
       'Test and collect data from an iPhone sensor using HTTP requests',
@@ -16,6 +17,7 @@ const experiences = [
     id: uuidv4(),
     position: 'Research Assistant',
     company: 'Northeastern University',
+    location: 'Boston, MA',
     responsibilities: [
       'Working with a Ph.D. candidate to utilize DNA sequencing and bioinformatics approaches to identify the metabolic potential of comammox communities',
       'Analyzed over 2000 flow cytometry plots',
@@ -25,7 +27,8 @@ const experiences = [
   {
     id: uuidv4(),
     position: 'Data Science Intern',
-    company: 'Northeastern University',
+    company: 'Signify Health',
+    location: 'New York, NY',
     responsibilities: [
       'Formulate a novel model to represent heterogenous data in electronic health records using a 3d tensor.',
       'Developed perplexity-based probability models using Python and Scala to evaluate over 10,000 patients.',
@@ -37,6 +40,7 @@ const experiences = [
     id: uuidv4(),
     position: 'Research Assistant',
     company: 'Renasslaer Polytechnic Institute',
+    location: 'Troy, NY',
     responsibilities: [
       'Investigated optimal methods to produce bacterial cellulose which could be used as artificial skin and blood vessels',
       'Presented research findings at Long Island Science and Engineering Fair and received Honorable Mention in biochemistry and biomedical engineering',
@@ -46,6 +50,7 @@ const experiences = [
     id: uuidv4(),
     position: 'Research Assistant',
     company: 'North Shore University Hospital',
+    location: 'Manhasset, NY',
     responsibilities: [
       'Worked with a radiation oncology resident to evaluate different therapies for prostate cancer patients and their effects on their mental health.',
       'Trained 5 high school and undergraduate students on how to interpret doctors’ notes, MRI’s and conduct statistical analysis.',
