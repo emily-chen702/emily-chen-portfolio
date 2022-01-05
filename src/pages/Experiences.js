@@ -7,11 +7,14 @@ import WorkExperienceItem from '../components/WorkExperienceItem.js';
 const ExperienceStyles = styled.div`
   padding: 10rem 0;
   .sect {
-    margin: 5rem 3rem;
+    margin: 5rem 5rem;
     flex-wrap: wrap;
   }
   .sect_header {
     font-size: 3.6rem;
+  }
+  .container {
+    margin: 0 0;
   }
 `;
 
@@ -32,6 +35,7 @@ export default function Experiences() {
               position={item.position}
               company={item.company}
               responsibilities={item.responsibilities}
+              location={item.location}
             />
           ))}
         </div>
