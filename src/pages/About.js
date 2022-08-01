@@ -58,6 +58,17 @@ const AboutPageStyles = styled.div`
   .para {
     line-height: 1.75rem;
   }
+  .item {
+    background-color: var(--deep-dark);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem;
+  }
+  .items {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+  }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -167,9 +178,29 @@ export default function About() {
               title="DATA Club"
               items={['Director of Communications']}
             />
-            <AboutInfoItem title="ASU" items={['Family Big']} />
+            <AboutInfoItem title="ASU" items={['Family Head']} />
             <AboutInfoItem title="NUSCI" items={['Writer']} />
             <AboutInfoItem title="Big Sister" items={['Mentor']} />
+          </div>
+          <div className="about__info__item">
+            <h1 className="about__info__heading">Interests</h1>
+            <div className="items">
+              <div className="item">
+                <PText> Volleyball </PText>
+              </div>
+              <div className="item">
+                <PText> Brunch </PText>
+              </div>
+              <div className="item">
+                <PText> Painting </PText>
+              </div>
+              <div className="item">
+                <PText> Baking </PText>
+              </div>
+              <div className="item">
+                <PText> Cooking </PText>
+              </div>
+            </div>
           </div>
         </div>
       </div>
