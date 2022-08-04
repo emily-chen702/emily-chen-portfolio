@@ -25,10 +25,11 @@ export default function Button({
   btnLink = 'test',
   btnText = 'Test',
   outline = false,
+  target = '',
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <Link className="button" to={btnLink} download>
+      <Link className="button" to={btnLink} target={target} download>
         {btnText}
       </Link>
     </ButtonStyle>

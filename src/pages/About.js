@@ -119,7 +119,11 @@ export default function About() {
                 technology.
               </PText>
             </div>
-            <Button btnText="Download Resume" btnLink={ResumeDownload} />
+            <Button
+              btnText="Download Resume"
+              btnLink={ResumeDownload}
+              target="_blank"
+            />
           </div>
           <div className="right">
             <img src={AboutImg} alt="Emily Chen img" />
