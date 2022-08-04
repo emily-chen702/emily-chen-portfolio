@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/about2.png';
+import AboutImg from '../assets/images/about-portrait.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ResumeDownload from '../assets/data/Chen_Emily_Resume_10-10.pdf';
 
@@ -106,13 +106,12 @@ export default function About() {
                 minor in Mathematics at Northeastern University. I am passionate
                 about science research and data science and I am looking for
                 opportunities that combine the two.
-                <br /> <br />I am currently on co-op at GenOne Technologyies, an
-                engineering consulting company, as a Software Developer. At
-                GenOne, I have focused on developing an Angular based
-                NativeScript app that uses an iPhone sensor to sense the
-                position of two 3D printed toys using machine learning methods
-                (SVM and SVR). In addition, I am a reserach assistant at the
-                Pinto Lab at Northeastern University.
+                <br /> <br />I am currently on co-op at Pfizer Inc. as a Data
+                Engineer on the Downstream Process Development team in the
+                Bioprocess Research and Development group. I am working on
+                aggregating data from 297 high throughput screening experiments
+                into a database. I will then use the data in the database to
+                construct a holistic visualization.
                 <br /> <br /> I am passionate about exploring the application of
                 machine learning techniques in a scientific field. I am also
                 interested in making the advancement of machine learning
@@ -156,27 +155,22 @@ export default function About() {
               items={['Git', 'Jupyter', 'AWS', 'Spark', 'Eclipse', 'Vim']}
             />
             <AboutInfoItem
-              title="Lab Skills"
-              items={[
-                'autoclaving',
-                'micropipeting',
-                'bacteria cultures',
-                'lyophilization',
-                'sterilization techniques',
-                'titration techniques',
-                'plasmid amplification',
-                'PCR',
-                'flow cytometry',
-                'pH meter',
-              ]}
+              title="Cloud Tech"
+              items={['AWS (s3, Diveplane)', 'Spark']}
             />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">Leadership</h1>
-            <AboutInfoItem title="NUWIT" items={['Vice President']} />
             <AboutInfoItem
               title="DATA Club"
-              items={['Director of Communications']}
+              items={[
+                'President (2022-2023)',
+                'Director of Communications (2019-2022)',
+              ]}
+            />
+            <AboutInfoItem
+              title="NUWIT"
+              items={['Vice President (2021-2022)', 'PR Chair (2020-2021)']}
             />
             <AboutInfoItem title="ASU" items={['Family Head']} />
             <AboutInfoItem title="NUSCI" items={['Writer']} />

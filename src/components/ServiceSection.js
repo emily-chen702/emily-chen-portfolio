@@ -45,7 +45,7 @@ export default function ServiceSection() {
           <ServicesSectionItem
             icon={<AiOutlineDotChart />}
             title="Data Visualization"
-            desc="I have used Tableau, Python, Javascript and HTML/CSS to make static, interactive and animated data visualizations."
+            desc="I have used Tableau, Python, Iron Python, Spotfire, Javascript and HTML/CSS to make static, interactive and animated data visualizations."
           />
           <ServicesSectionItem
             icon={<AiOutlineExperiment />}

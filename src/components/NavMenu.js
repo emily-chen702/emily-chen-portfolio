@@ -153,7 +153,7 @@ export default function NavMenu() {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            Experiences
+            Experience
           </NavLink>
         </li>
       </ul>

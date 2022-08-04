@@ -7,14 +7,14 @@ const experiences = [
     company: 'Pfizer',
     location: 'Andover, MA',
     responsibilities: [
-      'Sort files from high throughput screening experiments by format',
-      'Create a tool to aggregate information from excel files into one excel sheet',
-      'Visualize aggregated data with Spotfire',
+      'Sort files from high throughput screening experiments by format.',
+      'Create a tool to aggregate information from excel files into one excel sheet.',
+      'Visualize aggregated data with Spotfire.',
     ],
   },
   {
     id: uuidv4(),
-    position: 'Data Science and Insights intern',
+    position: 'Data Science and Insights Intern',
     company: "ALSAC/St. Jude Children's Hospital",
     location: 'Remote',
     responsibilities: [

@@ -23,7 +23,7 @@ export default function Experiences() {
     <ExperienceStyles>
       <div className="container">
         <SectionTitle
-          heading="Experiences"
+          heading="Experience"
           subheading="some of my past experiences"
         />
       </div>

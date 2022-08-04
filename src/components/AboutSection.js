@@ -82,8 +82,7 @@ export default function AboutSection() {
           <PText>
             I am a student at Northeastern University studying data science and
             biochemistry, minoring in mathematics. I am currently on co-op,
-            working as a Data Engineer at Pfizer Inc., and a biochemical
-            research assistant at Northeastern University. I am interested in
+            working as a Data Engineer at Pfizer Inc. I am interested in
             exploring the intersection of data science and biochemistry.
           </PText>
           <div className="aboutSection__buttons">

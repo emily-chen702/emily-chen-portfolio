@@ -4,7 +4,7 @@ import PText from './PText';
 
 const AboutItemStyles = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   margin-top: 3rem;
   position: relative;
@@ -20,9 +20,9 @@ const AboutItemStyles = styled.div`
   }
   .item {
     background-color: var(--deep-dark);
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 8px;
-  }
+  1
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
@@ -32,6 +32,7 @@ const AboutItemStyles = styled.div`
       position: initial;
       gap: 1rem;
       flex-wrap: wrap;
+      flex-direction: row;
     }
     .title {
       font-size: 2rem;
