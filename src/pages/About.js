@@ -8,6 +8,13 @@ import ResumeDownload from '../assets/data/Chen_Emily_Resume_10-10.pdf';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
+
+  Button {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    line-height: 1.3rem;
+  }
   .top-section {
     display: flex;
     align-items: center;
@@ -190,13 +197,13 @@ export default function About() {
                 <PText> Brunch </PText>
               </div>
               <div className="item">
-                <PText> Painting </PText>
+                <PText btnLink="/paintings"> Painting </PText>
               </div>
               <div className="item">
                 <PText> Baking </PText>
               </div>
               <div className="item">
-                <PText> Cooking </PText>
+                <PText btnLink="/cooking"> Cooking </PText>
               </div>
             </div>
           </div>
