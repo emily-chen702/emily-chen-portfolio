@@ -11,8 +11,17 @@ import CelluloseImg from '../images/cellulose.png';
 import FuelsImg from '../images/energy.png';
 import PositronImg from '../images/physics.png';
 import CRISPRImg from '../images/crispr.png';
+import NicImg from '../images/nic.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Nature Inspired Computing',
+    desc: 'Developped a model to simulate rabbits and foxes in ecosystems to observe artificial migration patterns.',
+    img: NicImg,
+    link: 'https://github.com/emily-chen702/Nature-Inspired-Computing',
+    category: 'technology',
+  },
   {
     id: uuidv4(),
     name: 'Northeastern Research Database',
