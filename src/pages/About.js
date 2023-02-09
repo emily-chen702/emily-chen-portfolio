@@ -113,12 +113,11 @@ export default function About() {
                 minor in Mathematics at Northeastern University. I am passionate
                 about science research and data science and I am looking for
                 opportunities that combine the two.
-                <br /> <br />I am currently on co-op at Pfizer Inc. as a Data
-                Engineer on the Downstream Process Development team in the
-                Bioprocess Research and Development group. I am working on
-                aggregating data from 297 high throughput screening experiments
-                into a database. I will then use the data in the database to
-                construct a holistic visualization.
+                <br /> <br /> I am currently interning at ALSAC St. Jude
+                Children's Hospital on the Data Science and Insights team. The
+                goal of this team is to develop and improve campaigns to obtain
+                new and retain current donors. I am currently looking for full
+                time opportunities.
                 <br /> <br /> I am passionate about exploring the application of
                 machine learning techniques in a scientific field. I am also
                 interested in making the advancement of machine learning
