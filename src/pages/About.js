@@ -108,24 +108,24 @@ export default function About() {
             </h2>
             <div className="about__info">
               <PText>
-                I am a Machine Learning Engineer at Capital One. I am passionate 
-                about learning about the different applications of data science 
-                and machine learning, and I am grateful for the opportunity to 
-                explore these applications at a company that is consistently 
-                looking for ways to innovate.  
+                I am a Machine Learning Engineer at Capital One. I am passionate
+                about learning about the different applications of data science
+                and machine learning, and I am grateful for the opportunity to
+                explore these applications at a company that is consistently
+                looking for ways to innovate.
                 <br /> <br /> I am currently part of Capital One's Machine
-                Learning Development Program. I work on the HR Data Strategy 
-                Team, whose goal is to find the most optimal ways to onboard 
-                data into Capital One’s data warehouse. While helping with my 
-                team’s efforts, I conduct exploratory data analysis, create 
-                proof of concepts for the use of machine learning in our space 
-                and consult on machine learning proposals. 
-                <br /> <br /> My undergraduate degree was in data science and 
+                Learning Development Program. I work on the HR Data Strategy
+                Team, whose goal is to find the most optimal ways to onboard
+                data into Capital One’s data warehouse. While helping with my
+                team’s efforts, I conduct exploratory data analysis, create
+                proof of concepts for the use of machine learning in our space
+                and consult on machine learning proposals.
+                <br /> <br /> My undergraduate degree was in data science and
                 biochemistry, so I am passionate about exploring the application
-                of machine learning techniques in a scientific field. Another 
-                passion of mine is advocating for the ethics of machine learning 
-                and making machine learning itself understandable to others 
-                regardless of if their background is technology. 
+                of machine learning techniques in a scientific field. Another
+                passion of mine is advocating for the ethics of machine learning
+                and making machine learning itself understandable to others
+                regardless of if their background is technology.
               </PText>
             </div>
             <Button
