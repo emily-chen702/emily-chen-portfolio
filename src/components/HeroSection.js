@@ -156,9 +156,7 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am a Machine Learning Engineer at Capital One. 
-            </PText>
+            <PText>I am a Machine Learning Engineer at Capital One.</PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
           <div className="hero__social">
