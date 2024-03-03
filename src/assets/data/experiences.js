@@ -3,6 +3,17 @@ import { v4 as uuidv4 } from 'uuid';
 const experiences = [
   {
     id: uuidv4(),
+    position: 'Machine Learning Engineer',
+    company: 'Capital One',
+    location: 'McLean, VA',
+    responsibilities: [
+      'Create proof of concepts to ease the introduction of machine learning in my space.',
+      'Giving demos on the use of neural networks and LLMs with HuggingFace and LangChain',
+      'Consult on machine learning proposals',
+    ],
+  },
+  {
+    id: uuidv4(),
     position: 'Data Engineer',
     company: 'Pfizer',
     location: 'Andover, MA',

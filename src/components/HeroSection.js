@@ -157,8 +157,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am a student at Northeastern University studying data science
-              and biochemistry, minoring in math.
+              I am a Machine Learning Engineer at Capital One. 
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
