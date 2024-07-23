@@ -12,8 +12,17 @@ import FuelsImg from '../images/energy.png';
 import PositronImg from '../images/physics.png';
 import CRISPRImg from '../images/crispr.png';
 import NicImg from '../images/nic.png';
+import PXEImg from '..images/PXE_logo.png'
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'PXE International',
+    desc: 'Helped PXE International, a nonprofit that promotes research and support individuals affected by pseudoxanthoma elasticum (PXE) in exploratory data analysis of their demographic data.',
+    img: PXEImg,
+    link: '',
+    category: 'technology',
+  },
   {
     id: uuidv4(),
     name: 'Nature Inspired Computing',

@@ -7,9 +7,11 @@ const experiences = [
     company: 'Capital One',
     location: 'McLean, VA',
     responsibilities: [
-      'Create proof of concepts to ease the introduction of machine learning in my space.',
-      'Giving demos on the use of neural networks and LLMs with HuggingFace and LangChain',
-      'Consult on machine learning proposals',
+      'Introduce machine learning to the HR space.',
+      'Create proof of concepts and present them to over 30 people to attract stakeholders.',
+      'Demo and create a framework regarding the implementation of LLMs (llama and mixtral).',
+      'Experiment on different evaluation tools for LLMs.',
+      'Present and demo at internal conference.'
     ],
   },
   {

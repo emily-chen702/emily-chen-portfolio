@@ -45,9 +45,14 @@ export default function Footer() {
         <div className="footer__col1">
           <div className="footer__col__title">Emily Chen</div>
           <PText>
-            I am a student at Northeastern University studying data science and
-            biochemistry, minoring in mathematics. I am interested in
-            opportunites at the intersection of these fields.
+              I'm a machine learning engineer at Capital One 
+              based in New York City. I'm passionate about 
+              the application of large language models (LLMs) 
+              and recognizing when they can be used in place of 
+              traditional machine learning methods. I also 
+              enjoy making machine learning itself 
+              understandable to others regardless of if their 
+              background is technology. 
           </PText>
         </div>
         <div className="footer__col__2">
@@ -81,8 +86,8 @@ export default function Footer() {
                 path: 'tel:5163507889',
               },
               {
-                title: 'chen.emi@northeastern.edu',
-                path: 'mailto:chen.emi@northeastern.edu',
+                title: 'emily.chen2@capitalone.com',
+                path: 'mailto:emily.chen2@capitalone.com',
               },
             ]}
           />
