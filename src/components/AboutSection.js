@@ -80,14 +80,12 @@ export default function AboutSection() {
             heading="About me"
           />
           <PText>
-            I'm a machine learning engineer at Capital One 
-            based in New York City. I'm passionate about 
-            the application of large language models (LLMs) 
-            and recognizing when they can be used in place of 
-            traditional machine learning methods. I also 
-            enjoy making machine learning itself 
-            understandable to others regardless of if their 
-            background is technology. 
+            I'm a machine learning engineer at Capital One based in New York
+            City. I'm passionate about the application of large language models (LLMs) 
+            and recognizing when they can be used in place of traditional 
+            machine learning methods. I also enjoy making machine learning 
+            itself understandable to others regardless of if their background is 
+            technology. 
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />

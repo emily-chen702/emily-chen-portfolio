@@ -11,7 +11,7 @@ const experiences = [
       'Create proof of concepts and present them to over 30 people to attract stakeholders.',
       'Demo and create a framework regarding the implementation of LLMs (llama and mixtral).',
       'Experiment on different evaluation tools for LLMs.',
-      'Present and demo at internal conference.'
+      'Present and demo at internal conference.',
     ],
   },
   {
