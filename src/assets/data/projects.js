@@ -12,7 +12,7 @@ import FuelsImg from '../images/energy.png';
 import PositronImg from '../images/physics.png';
 import CRISPRImg from '../images/crispr.png';
 import NicImg from '../images/nic.png';
-import PXEImg from '..images/PXE_logo.png'
+import PXEImg from '../images/PXE_logo.png'
 
 const projects = [
   {
