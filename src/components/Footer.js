@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="footer__col1">
           <div className="footer__col__title">Emily Chen</div>
           <PText>
-          I'm a machine learning engineer at Capital One based in New York
+            I'm a machine learning engineer at Capital One based in New York
             City. I'm passionate about the application of large language models
             (LLMs) and recognizing when they can be used in place of traditional
             machine learning methods. I also enjoy making machine learning
